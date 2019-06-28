@@ -1,5 +1,13 @@
 # Lookerbot
 
+### Octopart notes
+
+Lookerbot is deployed as an ElasticBeanstalk app. It has a public address so that it can receive webhooks from Looker. The public address is http://lookerbot.octopart.net/.
+
+All config is handled as environment variables so check here for config and logs. https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1#/environment/configuration?applicationName=lookerbot2&environmentId=e-ap74ccm74i
+
+### What is Lookerbot?
+
 Lookerbot integrates [Slack](https://slack.com) and [Looker](https://looker.com) to put all your data at your fingertips. 
 
 With Lookerbot, everyone in your company can easily share data and answer questions instantly. Lookerbot can answer questions, send alerts, and more!
